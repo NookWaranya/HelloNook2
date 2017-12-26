@@ -8,14 +8,14 @@
 
     <!--WallPaper-->
     <ImageView
-        android:src="@drawable/bg1"
-        android:scaleType="centerCrop"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-   <!--Content of Fragment-->
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg1" />
+    <!--Content of Fragment-->
     <FrameLayout
         android:id="@+id/contenMainFragfment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 
 </android.support.constraint.ConstraintLayout>
